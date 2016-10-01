@@ -2,7 +2,10 @@
   "name": "operacja_drawsko",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "engines": {
+    "node": "5.0.0"
+  },
   "scripts": {
     "start": "node app.js",
     "dev_start": "nodemon --exec npm start",

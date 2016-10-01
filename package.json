@@ -1,0 +1,28 @@
+{
+  "name": "operacja_drawsko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev_start": "nodemon --exec npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rybex/OperacjaDrawsko.git"
+  },
+  "keywords": [
+    "presentation",
+    "impress.js"
+  ],
+  "author": "Tomasz Rybczynski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rybex/OperacjaDrawsko/issues"
+  },
+  "homepage": "https://github.com/rybex/OperacjaDrawsko#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

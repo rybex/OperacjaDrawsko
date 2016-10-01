@@ -8,8 +8,7 @@
   },
   "scripts": {
     "start": "node app.js",
-    "dev_start": "nodemon --exec npm start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev_start": "nodemon --exec npm start"
   },
   "repository": {
     "type": "git",

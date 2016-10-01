@@ -5,7 +5,7 @@ var port = process.env.PORT || 8080;
 
 app.use(express.static('public'));
 
-app.get('/operacja-drawsko', function (req, res) {
+app.get('/', function (req, res) {
   res.sendFile('./view/presentation.html', { root: __dirname });
 });
 

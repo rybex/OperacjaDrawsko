@@ -8,7 +8,9 @@
   },
   "scripts": {
     "start": "node app.js",
-    "dev_start": "nodemon --exec npm start"
+    "dev-start": "nodemon --exec npm start",
+    "build-css": "lessc ./src/less/freelancer.less ./public/css/styles.css",
+    "watch-css": "nodemon -e less -x \"npm run build-css\""
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,9 @@
   },
   "homepage": "https://github.com/rybex/kogis-tatry#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "cors": "^2.8.1",
+    "mailgun-js": "^0.7.12",
+    "body-parser": "^1.15.2"
   }
 }
